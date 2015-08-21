@@ -31,4 +31,4 @@ Answer: check true or false.
 
 5. When we remove the flag variable, the code will run faster or slower? in which scenario? 
 
-Answer: if remove flag variable code will run faster but it not correct.
+Answer: if remove flag variable code will run faster but it not correct,can't loop.
