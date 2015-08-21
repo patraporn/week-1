@@ -9,8 +9,8 @@ Patraporn Chagsakol
 570611028
 
 ## Revision, put your commit number here
-* Sort from larger to smaller: 
-* Without flag:
+* Sort from larger to smaller: 7d3b0bf9
+* Without flag:dd48a7b6
 
 ## Questions
 1. How this code can sort number from smaller to larger
