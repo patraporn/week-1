@@ -5,10 +5,10 @@
 * Revise the code such that it can accept input from command line, put your commit number and answer question 1 below
 
 ## Revision, put your commit number here
-* Three functions:
-* Get input from command line:
+* Three functions: f652bde3
+* Get input from command line:49779038
 
 ## Questions
 1. What are the limitations of your new code?
 
-Answer:
+Answer: if user put data isn't interger,program is error.
