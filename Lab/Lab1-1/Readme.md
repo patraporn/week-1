@@ -13,7 +13,7 @@
 ## Questions
 1. How this code can sort number from smaller to larger
  
-Answer: 
+Answer: ytrytry
 
 2. What if two numbers equal, what will happen? 
 
