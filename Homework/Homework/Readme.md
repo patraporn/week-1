@@ -6,7 +6,8 @@
 # Questions
 * Why we need "if-else" in function process?
 
-Answer:
+Answer: if equal 0 code is error.This is a factorial calculator using the recursion.We need if-else in the function to control and keep the recursion going and to stop the recursion when the require conditions   
+
 
 
 # Resources
