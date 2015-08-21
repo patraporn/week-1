@@ -10,12 +10,30 @@ namespace Lab1_2
     {
         static void Main(string[] args)
         {
-            bool flag = true;
+           
 
             // input
-            int[] input = { 4, 5, 2, 8, 9, 1, 2, 4, 3, 1 };
+            program b = new program();
+            b.input();
 
-            // process
+
+            Console.ReadKey();
+        }
+    }
+    class program
+    {
+
+        public void input()
+        {
+            int[] input = { 4, 5, 2, 8, 9, 1, 2, 4, 3, 1 };
+            process(input);
+            output(input);
+        }
+
+        public void process(int[] input)
+        {
+            bool flag = true;
+
             while (flag)
             {
                 flag = false;
@@ -31,13 +49,19 @@ namespace Lab1_2
                 }
             }
 
-            // output
+
+        }
+
+        public void output(int[] input )
+        {
             for (int i = 0; i != input.Length; i++)
             {
                 Console.Write(input[i]);
+
                 Console.Write(" ");
             }
-            Console.ReadKey();
+        
         }
+
     }
 }
