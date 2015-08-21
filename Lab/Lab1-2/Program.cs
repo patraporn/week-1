@@ -25,7 +25,11 @@ namespace Lab1_2
 
         public void input()
         {
-            int[] input = { 4, 5, 2, 8, 9, 1, 2, 4, 3, 1 };
+            string v;
+            Console.WriteLine("Input number: ");
+            v = Console.ReadLine();
+            int[] input;
+            input = v.Split(' ').Select(y => Convert.ToInt32(y)).ToArray();
             process(input);
             output(input);
         }
@@ -54,6 +58,7 @@ namespace Lab1_2
 
         public void output(int[] input )
         {
+            Console.WriteLine("Output number: ");
             for (int i = 0; i != input.Length; i++)
             {
                 Console.Write(input[i]);
